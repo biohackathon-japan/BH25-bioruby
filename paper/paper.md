@@ -1,23 +1,22 @@
 ---
-title: 'DBCLS BioHackathon 2025 report: Template for the very long title'
-title_short: 'BioHackJP25: How we found breakfast'
+title: 'DBCLS BioHackathon 2025 report: Boosting BioRuby Development with AI'
+title_short: 'BioHackJP25: Boosting BioRuby Development with AI'
 tags:
-  - Semantic web
-  - Ontologies
-  - Workflows
+  - Ruby
+  - Bioinformatics
+  - Openbio
 authors:
-  - name: First Author
+  - name: Naohisa Goto
     affiliation: 1
-  - name: Last Author
-    orcid: 0000-0000-0000-0000
+  - name: Kozo Nishida
+    orcid: 0000-0001-8501-7319
     affiliation: 2
 affiliations:
   - name: First Affiliation
     index: 1
-  - name: ELIXIR Europe
-    ror: 044rwnt51
+  - name: RIKEN Center for Biosystems Dynamics Research
     index: 2
-date: 15 September 2025
+date: 19 September 2025
 cito-bibliography: paper.bib
 event: BH25JP
 biohackathon_name: "DBCLS BioHackathon 2025"
@@ -25,7 +24,7 @@ biohackathon_url:   "https://2025.biohackathon.org/"
 biohackathon_location: "Mie, Japan, 2025"
 group: YOUR-PROJECT-NAME-GOES-HERE
 # URL to project git repo --- should contain the actual paper.md:
-git_url: https://github.com/biohackathon-japan/bh25-bhxiv-template
+git_url: https://github.com/bioruby/BH25-boosting-bioruby-dev-with-ai
 # This is the short authors description that is used at the
 # bottom of the generated paper (typically the first two authors):
 authors_short: First Author \emph{et al.}
@@ -33,7 +32,13 @@ authors_short: First Author \emph{et al.}
 
 # Introduction
 
-As part of the DBCLS BioHackathon 2025, we here report...
+BioRuby is an open-source software library designed to bring the Ruby programming language into the field of bioinformatics. Alongside sibling projects such as BioPerl, Biopython, and BioJava, it provides a versatile collection of classes and modules that make biological data processing both accessible and reproducible.
+
+At its core, BioRuby supports sequence analysis, genome and proteome data parsing, and interaction with biological databases. It includes parsers for widely used formats such as FASTA, GenBank, and PDB, and provides programmatic access to resources including KEGG, UniProt, and GenBank. The toolkit also implements fundamental algorithms for sequence alignment, translation, and motif discovery. With Ruby’s expressive syntax, BioRuby has proven especially useful for researchers and educators seeking a clear, concise programming environment.
+
+Since its inception in the early 2000s, BioRuby has been a foundational part of the Bio community ecosystem*, supporting open science and enabling collaborations across disciplines. It has served both as a research enabler and as an educational platform, ensuring that Ruby remains a practical language choice for computational biology.
+
+In this article, we also highlight that BioRuby has introduced the latest DevOps practices into its development workflow, ensuring modern maintainability and scalability. Furthermore, the project is rapidly incorporating AI-driven methods to accelerate development speed, making BioRuby one of the first bioinformatics libraries in its ecosystem to experiment with automated code generation, testing, and continuous integration.
 
 ## Author information
 
