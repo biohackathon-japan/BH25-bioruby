@@ -7,27 +7,29 @@ tags:
   - Openbio
 authors:
   - name: Naohisa Goto
+    orcid: 0000-0001-8953-046X
     affiliation: 1
   - name: Kozo Nishida
     orcid: 0000-0001-8501-7319
     affiliation: 2
 affiliations:
-  - name: First Affiliation
+  - name: Research Institute for Microbial Diseases, The University of Osaka
     index: 1
   - name: RIKEN Center for Biosystems Dynamics Research
     index: 2
-date: 19 September 2025
+date: 20 September 2025
 cito-bibliography: paper.bib
 event: BH25JP
 biohackathon_name: "DBCLS BioHackathon 2025"
 biohackathon_url:   "https://2025.biohackathon.org/"
 biohackathon_location: "Mie, Japan, 2025"
-group: YOUR-PROJECT-NAME-GOES-HERE
+group: BioRuby-and-Ruby-for-Bioinformatics-with-DevOps-and-AI
 # URL to project git repo --- should contain the actual paper.md:
-git_url: https://github.com/bioruby/BH25-boosting-bioruby-dev-with-ai
+git_url: https://github.com/biohackathon-japan/BH25-bioruby
 # This is the short authors description that is used at the
 # bottom of the generated paper (typically the first two authors):
-authors_short: First Author \emph{et al.}
+#authors_short: First Author \emph{et al.}
+authors_short: Goto and Nishida
 ---
 
 # Introduction
@@ -49,16 +51,17 @@ For example, this is the author information for this template:
 
 ```yaml
 authors:
-  - name: First Author
+  - name: Naohisa Goto
+    orcid: 0000-0001-8953-046X
     affiliation: 1
-  - name: Last Author
-    orcid: 0000-0000-0000-0000
+  - name: Kozo Nishida
+    orcid: 0000-0001-8501-7319
     affiliation: 2
 affiliations:
-  - name: First Affiliation
+  - name: Research Institute for Microbial Diseases, The University of Osaka
     index: 1
-  - name: ELIXIR Europe
-    ror: 044rwnt51
+  - name: RIKEN Center for Biosystems Dynamics Research
+    ror: 023rffy11
     index: 2
 ```
 
