@@ -16,6 +16,7 @@ affiliations:
   - name: Research Institute for Microbial Diseases, The University of Osaka
     index: 1
   - name: RIKEN Center for Biosystems Dynamics Research
+    ror: 023rffy11
     index: 2
 date: 20 September 2025
 cito-bibliography: paper.bib
@@ -23,7 +24,7 @@ event: BH25JP
 biohackathon_name: "DBCLS BioHackathon 2025"
 biohackathon_url:   "https://2025.biohackathon.org/"
 biohackathon_location: "Mie, Japan, 2025"
-group: BioRuby-and-Ruby-for-Bioinformatics-with-DevOps-and-AI
+group: BioRuby-and-Ruby-for-Bioinformatics-with-Developer-Tooling-and-AI
 # URL to project git repo --- should contain the actual paper.md:
 git_url: https://github.com/biohackathon-japan/BH25-bioruby
 # This is the short authors description that is used at the
